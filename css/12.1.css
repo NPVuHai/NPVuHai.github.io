@@ -1,0 +1,15 @@
+.carousel-inner .bg-img1 {
+  height: 80vh;
+  background-size: cover;
+  background-image: url(/img/bg1.jpg);
+}
+.bg-img2 {
+  background-image: url(/img/bg2.jpg);
+  height: 80vh;
+  background-size: cover;
+}
+.bg-img3 {
+  background-image: url(/img/bg3.jpg);
+  height: 80vh;
+  background-size: cover;
+}
