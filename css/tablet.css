@@ -1,0 +1,19 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  .section2,
+  .section3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parent {
+    width: 70%; /* Một phần tử chiếm toàn bộ chiều ngang */
+    margin: 15px auto;
+  }
+
+  .accordion-body p {
+    font-size: 18px; /* Giảm kích thước font */
+  }
+  .nav-brand img {
+    display: none;
+  }
+}
