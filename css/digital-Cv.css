@@ -1,0 +1,49 @@
+* {
+  font-size: 18px;
+  color: black;
+}
+body {
+  background-color: #74c0fc;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border: 2px solid blue;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.timeline-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.timeline-step .circle {
+  width: 50px;
+  height: 50px;
+  background-color: #9b59b6;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+/* Đảm bảo chiều cao đồng đều */
+.h-100 {
+  min-height: 100%;
+}
+.danger {
+  color: red;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}

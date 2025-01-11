@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+  .section2,
+  .section3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parent {
+    width: 90%; /* Đảm bảo hiển thị tốt trên màn hình nhỏ */
+    margin: 10px auto;
+  }
+
+  .accordion-body p {
+    font-size: 16px; /* Kích thước chữ nhỏ hơn */
+    line-height: 1.4;
+  }
+
+  .section-title {
+    font-size: 18px; /* Tiêu đề nhỏ hơn */
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%; /* Nút chiếm toàn bộ chiều ngang */
+    font-size: 14px;
+  }
+
+  .nav-brand img {
+    display: none; /* Ẩn hình ảnh thương hiệu */
+  }
+
+  /* Thêm các quy tắc cho các phần tử khác nếu cần */
+}
